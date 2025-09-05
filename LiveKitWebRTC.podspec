@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "LiveKitWebRTC"
-  spec.version = "137.7151.05"
+  spec.version = "137.7151.06"
   spec.summary = "Custom WebRTC build for LiveKit"
   spec.description = <<-DESC
     LiveKit version Dynamic WebRTC XCFramework
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     * Objective-C symbols are prefixed with LK, for example LKRTCPeerConnection.
   DESC
 
-  spec.homepage = "https://github.com/livekit/webrtc-xcframework"
+  spec.homepage = "https://github.com/chative/webrtc-xcframework"
   spec.license = {:type => "BSD", :file => "LiveKitWebRTC.xcframework/LICENSE"}
   spec.author = "LiveKit"
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.visionos.deployment_target = "2.2"
 
   spec.source = {
-    :http => "https://github.com/livekit/webrtc-xcframework/releases/download/137.7151.05/LiveKitWebRTC.xcframework.zip"
+    :http => "https://github.com/chative/webrtc-xcframework/releases/download/137.7151.06/LiveKitWebRTC.xcframework.zip"
   }
   spec.vendored_frameworks = "LiveKitWebRTC.xcframework"
 
